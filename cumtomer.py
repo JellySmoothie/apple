@@ -1,1 +1,2 @@
 print("Customer")
+print("Peter")
