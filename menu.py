@@ -1,2 +1,2 @@
 print("main menu")
-print("AA")
+print("tea")
