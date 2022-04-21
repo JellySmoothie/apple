@@ -1,3 +1,6 @@
 print("main menu")
 print("tea")
 print("Add")
+fname = input("your first name is : ")
+lname = input("your last name is : ")
+print(f"Your Full name is : {fname} {lname}")

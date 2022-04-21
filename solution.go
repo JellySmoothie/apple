@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Println("Hello")
+
+	if len(os.Args) != 2 {
+		fmt.Println("Repeat input name!")
+		return
+	}
+
+	fmt.Println("Your name is : ", os.Args[1])
+
+	// fmt.Println("Hello")
 }
